@@ -1,9 +1,6 @@
-
-
-function App() {
-
+const LoginPage = () => {
   return (
-    <div className='flex justify-end min-h-screen h-screen overflow-hidden bg-blue-800 bg-bg bg-blend-multiply bg-cover bg-center'>
+<div className='flex justify-end min-h-screen h-screen overflow-hidden bg-blue-800 bg-bg bg-blend-multiply bg-cover bg-center'>
       <div className="flex flex-col items-center justify-center min-h-screen p-4 w-1/2 bg-slate-100 rounded-l-4xl">
 
         <div className="mb-8">
@@ -37,9 +34,8 @@ function App() {
           <a href="#" className="text-blue-800 hover:underline text-lg font-semibold">Esqueceu sua senha?</a>
         </div>
       </div>
-    </div>
+      </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default LoginPage;
